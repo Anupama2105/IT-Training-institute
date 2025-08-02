@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Register | FAITH INFOTECH IT Training</title>
+  <meta name="description" content="Register for a course at FAITH INFOTECH IT Training Institute."/>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Course Registration</h1>
+  </header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="courses.html">Courses</a>
+    <a href="register.html">Register</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <main>
+    <form action="#" method="post" autocomplete="on">
+      <fieldset>
+        <legend>Personal Information</legend>
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required autofocus /><br/>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required /><br/>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required /><br/>
+      </fieldset>
+
+      <fieldset>
+        <legend>Education</legend>
+        <label for="education">Highest Qualification:</label>
+        <input type="text" id="education" name="education" required /><br/>
+      </fieldset>
+
+      <fieldset>
+        <legend>Course Selection</legend>
+        <label for="course">Choose Course:</label>
+        <select id="course" name="course" required>
+          <option value="">--Select--</option>
+          <option value="Full Stack Web">Full Stack Web Development</option>
+          <option value="Data Science">Data Science & Machine Learning</option>
+          <option value="Cloud">Cloud Computing Essentials</option>
+          <option value="Cybersecurity">Cybersecurity Fundamentals</option>
+        </select>
+      </fieldset>
+      <button type="submit">Register</button>
+    </form>
+  </main>
+  <footer>
+    <p>&copy; 2025 FAITH INFOTECH IT Training Institute</p>
+  </footer>
+</body>
+</html>
